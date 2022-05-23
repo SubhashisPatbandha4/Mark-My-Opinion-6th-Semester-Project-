@@ -1,0 +1,38 @@
+.trending {
+  /* width: 40%; */
+  height: 400px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 0px;
+
+  border: solid black 1px;
+  border-left: none;
+
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+#trending {
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+aside {
+  width: 40%;
+}
+
+.trendq {
+  text-align: left;
+  font-size: 22px;
+}
+
+.trendq_hold {
+  border-radius: 0%;
+  background-color: darkorchid;
+  font-size: 13px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  /* border: solid black 1px; */
+  padding: 10px;
+  text-align: center;
+  animation-name: backgroundColorPalette;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes backgroundColorPalette {
+  0% {
+    background: #ee6055;
+  }
+  25% {
+    background: #60d394;
+  }
+  50% {
+    background: #aaf683;
+  }
+  75% {
+    background: #ffd97d;
+  }
+  100% {
+    background: #ff9b85;
+  }
+}
+
+.nav {
+  text-align: center;
+  padding: 10px;
+}
+
+.but {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 25px;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  word-spacing: 10px;
+}
+a {
+  text-decoration: none;
+}
